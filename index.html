@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A Letter For You 💗</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=DM+Serif+Display&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="scene">
+
+    <!-- Decorative scrapbook pieces -->
+    <div class="tape tape-a"></div>
+    <div class="tape tape-b"></div>
+    <div class="paper-scrap scrap-a">you make<br>life sweeter<br>♡</div>
+    <div class="paper-scrap scrap-b">for you,<br>always.</div>
+
+    <!-- PAGE 1 -->
+    <section class="page active" id="page1">
+      <div class="doodle doodle-1">♡</div>
+      <div class="doodle doodle-2">♡</div>
+
+      <p class="eyebrow">a little something...</p>
+      <h1>A Letter For You!</h1>
+      <p class="hint">tap the envelope to open it</p>
+
+      <button class="envelope-wrap" id="openEnvelope" aria-label="Open the envelope">
+        <div class="envelope">
+          <div class="envelope-back"></div>
+          <div class="letter-preview">
+            <span>Happy Valentine's Day!</span>
+          </div>
+          <div class="flap"></div>
+          <div class="pocket"></div>
+          <div class="wax">♡</div>
+        </div>
+      </button>
+    </section>
+
+    <!-- PAGE 2 -->
+    <section class="page" id="page2">
+      <div class="doodle doodle-3">♡</div>
+      <div class="doodle doodle-4">♡</div>
+
+      <p class="eyebrow">just for you</p>
+      <h2>The letter is waiting...</h2>
+
+      <button class="open-letter" id="openLetter">
+        <span class="mini-paper">Happy Valentine's Day!<br><small>click me ♡</small></span>
+      </button>
+
+      <p class="hint">click the letter to read it</p>
+    </section>
+
+    <!-- PAGE 3 -->
+    <section class="page letter-page" id="page3">
+      <div class="heart heart-1">💗</div>
+      <div class="heart heart-2">💗</div>
+      <div class="heart heart-3">💗</div>
+      <div class="heart heart-4">💗</div>
+      <div class="heart heart-5">💗</div>
+      <div class="heart heart-6">💗</div>
+      <div class="heart heart-7">💗</div>
+      <div class="heart heart-8">💗</div>
+
+      <article class="letter-card">
+        <div class="clip"></div>
+
+        <!-- EDIT YOUR LETTER HERE -->
+        <p class="letter-title">My Love,</p>
+        <p>Happy Valentine's Day!</p>
+
+        <p>
+          I just want you to know how grateful I am for you,
+          for your heart, your laugh, and the way you make even
+          ordinary days feel special.
+        </p>
+
+        <p>
+          Being with you feels safe, comforting, and exciting
+          all at once. I'm so grateful for every memory we've made
+          and every little moment we get to share.
+        </p>
+
+        <p>
+          Thank you for being you. I hope you always know how
+          appreciated and special you are.
+        </p>
+
+        <p>I love you, always.</p>
+
+        <p class="signature">— Yours ♡</p>
+
+        <button class="next-button" id="finishLetter">keep going →</button>
+      </article>
+    </section>
+
+    <!-- PAGE 4 -->
+    <section class="page ending" id="page4">
+      <div class="final-heart">💗</div>
+      <p class="eyebrow">one last thing</p>
+      <h2>Thank you for being you.</h2>
+      <p class="ending-text">
+        Some people become memories.<br>
+        Some become a part of your story.
+      </p>
+      <button class="replay" id="replay">↻ Replay</button>
+    </section>
+
+    <div class="progress">
+      <span class="dot active-dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
