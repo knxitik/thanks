@@ -3,60 +3,102 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>A Letter For You 💗</title>
+  <title>A Little Letter For You 💗</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=DM+Serif+Display&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
   <main class="scene">
 
     <!-- Decorative scrapbook pieces -->
     <div class="tape tape-a"></div>
     <div class="tape tape-b"></div>
-    <div class="paper-scrap scrap-a">you make<br>life sweeter<br>♡</div>
-    <div class="paper-scrap scrap-b">for you,<br>always.</div>
+
+    <div class="paper-scrap scrap-a">
+      you make<br>
+      life sweeter<br>
+      ♡
+    </div>
+
+    <div class="paper-scrap scrap-b">
+      for you,<br>
+      always.
+    </div>
+
 
     <!-- PAGE 1 -->
     <section class="page active" id="page1">
+
       <div class="doodle doodle-1">♡</div>
       <div class="doodle doodle-2">♡</div>
 
-      <p class="eyebrow">a little something...</p>
+      <p class="eyebrow">just because ♡</p>
+
       <h1>A Letter For You!</h1>
+
       <p class="hint">tap the envelope to open it</p>
 
-      <button class="envelope-wrap" id="openEnvelope" aria-label="Open the envelope">
+      <button
+        class="envelope-wrap"
+        id="openEnvelope"
+        aria-label="Open the envelope"
+      >
+
         <div class="envelope">
+
           <div class="envelope-back"></div>
+
           <div class="letter-preview">
-            <span>Happy Valentine's Day!</span>
+            <span>A Little Letter For You ♡</span>
           </div>
+
           <div class="flap"></div>
+
           <div class="pocket"></div>
+
           <div class="wax">♡</div>
+
         </div>
+
       </button>
+
     </section>
+
 
     <!-- PAGE 2 -->
     <section class="page" id="page2">
+
       <div class="doodle doodle-3">♡</div>
       <div class="doodle doodle-4">♡</div>
 
-      <p class="eyebrow">just for you</p>
-      <h2>The letter is waiting...</h2>
+      <p class="eyebrow">written just for you</p>
+
+      <h2>A Few Words From Me</h2>
 
       <button class="open-letter" id="openLetter">
-        <span class="mini-paper">Happy Valentine's Day!<br><small>click me ♡</small></span>
+
+        <span class="mini-paper">
+          A Little Something For You
+          <br>
+          <small>click me ♡</small>
+        </span>
+
       </button>
 
       <p class="hint">click the letter to read it</p>
+
     </section>
+
 
     <!-- PAGE 3 -->
     <section class="page letter-page" id="page3">
+
+      <!-- Floating hearts -->
       <div class="heart heart-1">💗</div>
       <div class="heart heart-2">💗</div>
       <div class="heart heart-3">💗</div>
@@ -66,25 +108,33 @@
       <div class="heart heart-7">💗</div>
       <div class="heart heart-8">💗</div>
 
+
+      <!-- LETTER -->
       <article class="letter-card">
+
         <div class="clip"></div>
 
-        <!-- YOUR LETTER -->
-        <p class="letter-title">Hey Keerthi, good afternoon.</p>
+        <p class="letter-title">
+          Hey Keerthi, good afternoon.
+        </p>
+
 
         <p>
           I hope your day has been great.
         </p>
+
 
         <p>
           I'm writing this text to thank you for all the efforts you put into us
           that it almost feels unreal.
         </p>
 
+
         <p>
           Pardon me, I'm taking your letter as a reference -
           'Finding a partner like you, is truly once in a lifetime moment'.
         </p>
+
 
         <p>
           The way you always reassure me, ensuring that I don't feel lonely,
@@ -93,64 +143,101 @@
           sometimes I shed a tear thinking how blessed am I.
         </p>
 
+
         <p>
           I used to look at my pictures and hated the way I looked,
           I thought I would always be like that.
           But all thanks to you, you changed my perspective of how I look at myself now.
         </p>
 
+
         <p>
           There are a lot of things to still improve about myself,
           but I am grateful for the change I've been through.
         </p>
+
 
         <p>
           I just can't thank you more in words because
           'You are more than mere words could describe'.
         </p>
 
+
         <p>
           You deserve everything good that you have,
           I truly truly truly admire you in the most obsessed way possible.
         </p>
+
 
         <p>
           I never know if its right or wrong,
           but if I had to repeat this for my whole life, I will.
         </p>
 
+
         <p>
           Kavya Love you lotssss mwahhhhhhh, to the best girlfriend, Keerthi !!
         </p>
+
 
         <p class="signature">
           (also my diet coke and na bujamma also renii and belly hehe)
         </p>
 
-        <button class="next-button" id="finishLetter">keep going →</button>
+
+        <button
+          class="next-button"
+          id="finishLetter"
+        >
+          keep going →
+        </button>
+
       </article>
+
     </section>
+
 
     <!-- PAGE 4 -->
     <section class="page ending" id="page4">
+
       <div class="final-heart">💗</div>
+
       <p class="eyebrow">one last thing</p>
+
       <h2>Thank you for being you.</h2>
+
       <p class="ending-text">
         Some people become memories.<br>
         Some become a part of your story.
       </p>
-      <button class="replay" id="replay">↻ Replay</button>
+
+      <button
+        class="replay"
+        id="replay"
+      >
+        ↻ Replay
+      </button>
+
     </section>
 
+
+    <!-- Progress dots -->
     <div class="progress">
+
       <span class="dot active-dot"></span>
+
       <span class="dot"></span>
+
       <span class="dot"></span>
+
       <span class="dot"></span>
+
     </div>
+
   </main>
 
+
   <script src="script.js"></script>
+
 </body>
 </html>
